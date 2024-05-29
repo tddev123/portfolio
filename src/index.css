@@ -87,6 +87,167 @@ video {
 
 
 
+.glow1 {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  border-width: 6px; /* Adjust border width as needed */
+  border-style: solid;
+  border-radius: 0px; /* Adjust border radius as needed */
+  animation: glow-border 2s ease-in-out infinite alternate, glow-shadow 2s ease-in-out infinite alternate;
+ 
+}
+
+@keyframes glow-border {
+  0% {
+    border-color: #ff0000; 
+    
+  }
+  25% {
+    border-color: #00ff00; 
+    
+  }
+  50% {
+    border-color: #0000ff;
+    border: 100;
+  }
+  75% {
+    border-color: #ffff00; 
+    
+  }
+  100% {
+    border-color: #ff00ff; 
+    border: .50;
+  }
+}
+
+@keyframes glow-shadow {
+  0% {
+    box-shadow: 0 0 80px rgba(255, 0, 0, 0.5); /* Red shadow */
+  }
+  25% {
+    box-shadow: 0 0 80px rgba(0, 255, 0, 0.5); /* Green shadow */
+  }
+  50% {
+    box-shadow: 0 0 80px rgba(0, 0, 255, 0.5); /* Blue shadow */
+  }
+  75% {
+    box-shadow: 0 0 80px rgba(255, 255, 0, 0.5); /* Yellow shadow */
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 0, 255, 0.5); /* Purple shadow */
+  }
+}
+
+
+
+
+
+.glow2 {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  border-width: 6px; /* Adjust border width as needed */
+  border-style: solid;
+  border-radius: 0px; /* Adjust border radius as needed */
+  animation: glow-border 2s ease-in-out infinite alternate, glow-shadow 2s ease-in-out infinite alternate;
+ 
+}
+
+@keyframes glow-border {
+  0% {
+    border-color: #ff0000; 
+    
+  }
+  25% {
+    border-color: #00ff00; 
+    
+  }
+  50% {
+    border-color: #0000ff;
+    border: 100;
+  }
+  75% {
+    border-color: #ffff00; 
+    
+  }
+  100% {
+    border-color: #ff00ff; 
+    border: .50;
+  }
+}
+
+@keyframes glow-shadow {
+  0% {
+    box-shadow: 0 0 80px rgba(255, 0, 0, 0.5); /* Red shadow */
+  }
+  25% {
+    box-shadow: 0 0 80px rgba(0, 255, 0, 0.5); /* Green shadow */
+  }
+  50% {
+    box-shadow: 0 0 80px rgba(0, 0, 255, 0.5); /* Blue shadow */
+  }
+  75% {
+    box-shadow: 0 0 80px rgba(255, 255, 0, 0.5); /* Yellow shadow */
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 0, 255, 0.5); /* Purple shadow */
+  }
+}
+
+
+
+
+.glow3 {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  border-width: 6px; /* Adjust border width as needed */
+  border-style: solid;
+  border-radius: 0px; /* Adjust border radius as needed */
+  animation: glow-border 2s ease-in-out infinite alternate, glow-shadow 2s ease-in-out infinite alternate;
+ 
+}
+
+@keyframes glow-border {
+  0% {
+    border-color: #ff0000; 
+    
+  }
+  25% {
+    border-color: #00ff00; 
+    
+  }
+  50% {
+    border-color: #0000ff;
+    border: 100;
+  }
+  75% {
+    border-color: #ffff00; 
+    
+  }
+  100% {
+    border-color: #ff00ff; 
+    border: .50;
+  }
+}
+
+@keyframes glow-shadow {
+  0% {
+    box-shadow: 0 0 80px rgba(255, 0, 0, 0.5); /* Red shadow */
+  }
+  25% {
+    box-shadow: 0 0 80px rgba(0, 255, 0, 0.5); /* Green shadow */
+  }
+  50% {
+    box-shadow: 0 0 80px rgba(0, 0, 255, 0.5); /* Blue shadow */
+  }
+  75% {
+    box-shadow: 0 0 80px rgba(255, 255, 0, 0.5); /* Yellow shadow */
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 0, 255, 0.5); /* Purple shadow */
+  }
+}
+
+
 
 
 
