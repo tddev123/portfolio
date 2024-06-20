@@ -10,7 +10,7 @@ export const About = () => {
 <Headerr/>
 
 
-<img className="z-[-1]  h-auto w-auto absolute" src="./images/aboutpic4.png" alt="" />
+<img className="z-[-1]  h-auto pb-0 mb-0 w-auto absolute" src=".\images\about me pic.png" alt="" />
 
                         
                
@@ -19,11 +19,7 @@ export const About = () => {
                         
 
                        
-        <h1 className="z-[-5] text-2xl  items-center font-bold max-w-md  ">
-                My Name is Tyler Altenburg and I am a front-end developer
-                 from Miami, Florida. I find great pleasure in building and designing websites 
-                 that meet the highest expectations of a company. I have been coding for over 
-               </h1>
+     
 
         
         
@@ -48,5 +44,6 @@ export const About = () => {
         )
 
 };
+
 
 
