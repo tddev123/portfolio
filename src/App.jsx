@@ -12,6 +12,18 @@ import FilterButtons from "./components/FilterButtons";
 import Data from "./components/Data";
 import Productfilter, { CarList } from "./components/Productfilter";
 import HomePage from "./components/HomePage";
+import WhoTubeMainPage from "./components/WhoTube/WhoTubeMainPage";
+import ClothingHome from "./components/Clothing/ClothingHome";
+import WhoTubeLogSign from "./components/WhoTube/WhoTubeLogSign";
+import CheckoutPage from "./components/Clothing/CheckoutClothes";
+import check123 from "./components/Clothing/check123";
+import MensClothes from "./components/Clothing/MensClothes";
+import WomanClothes from "./components/Clothing/WomanClothes";
+import KidsClothes from "./components/Clothing/KidsClothes";
+import BabyClothes from "./components/Clothing/BabyClothes";
+import WomensClothes from "./components/Clothing/WomanClothes";
+
+
 
 
 
@@ -53,7 +65,7 @@ function App() {
               Component = HomePage
               break
 
-        case "/WhoTube":
+              case "/WhoTube":
               Component = WhoTubeMainPage
               break
 
@@ -84,7 +96,9 @@ function App() {
                       case "/BabyClothes":
                         Component = BabyClothes
                         break
-      
+
+
+          
 
 
   }
