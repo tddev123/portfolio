@@ -47,7 +47,7 @@ export const Home = () => {
            
             <div class=" rounded-lg  text-center content-center h-auto p-6">
             <h1 className=" text-black text-6xl font-bold">Front-End Developer</h1> 
-            <h1 className="p-10 text-2xl"> I know what i'm doing and i'm ready to work.</h1>
+            <h1 className="p-10 text-2xl"> I know what I'm doing and I'm ready to work.</h1>
            <div className="flex justify-center"> <a href="https://www.linkedin.com/in/tyler-altenburg-0259832a9/"><Linkd/></a>
             <a href="https://github.com/tddev123"><Github/></a></div>
             </div>
