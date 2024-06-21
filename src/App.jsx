@@ -53,6 +53,39 @@ function App() {
               Component = HomePage
               break
 
+        case "/WhoTube":
+              Component = WhoTubeMainPage
+              break
+
+              case "/WhoTubeLogSign":
+                Component = WhoTubeLogSign
+                break
+
+              case "/ClothesHome":
+              Component = ClothingHome
+              break
+
+              case "/ClothesCheckout":
+                Component = check123
+                break
+
+                case "/MensClothes":
+                  Component = MensClothes
+                  break
+
+                  case "/WomensClothes":
+                    Component = WomensClothes
+                    break
+
+                    case "/KidsClothes":
+                      Component = KidsClothes
+                      break
+
+                      case "/BabyClothes":
+                        Component = BabyClothes
+                        break
+      
+
 
   }
   return (
