@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+        height: {
+        '240': '15rem',
+      },
+      width: {
+        '240': '15rem',
+      },
       keyframes: {
         colorChange: {
 
