@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import WhoTubeHeader from './WhoTubeHeader';
+import Footer from './WhoTubeMainPage';
 
 const WhoTubeLogSign = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -8,6 +10,9 @@ const WhoTubeLogSign = () => {
   };
 
   return (
+    <body>
+      <WhoTubeHeader/>
+   
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-4">{isLogin ? 'Log In' : 'Sign Up'}</h2>
@@ -35,8 +40,11 @@ const WhoTubeLogSign = () => {
           <button onClick={toggleForm} className="text-blue-500 hover:underline focus:outline-none">{isLogin ? 'Sign Up' : 'Log In'}</button>
         </p>
       </div>
-    </div>
+    </div> 
+    <Footer/>
+    </body>
   );
 };
 
 export default WhoTubeLogSign;
+
