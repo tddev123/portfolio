@@ -1,15 +1,19 @@
 import React from "react";
+import Footer from "./footer";
+import Headerr from "./Header";
 
 export const Buttons = () => {
 
     return (
-        <body className="flex flex-col items-center bg-black min-h-screen py-8">
+
+      <> <Headerr/>
+        <body className="flex flex-col items-center pt-12 bg-black min-h-screen py-8">
+
+          
     
-        <div className="max-w-lg">
-                 <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
-            <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://coffeeworld123.netlify.app/">CoffeeWorld</a>
-            <p className="text-lg text-center text-white p-4">Responsive Front-End coffee shop website.</p>
-          </div>
+        <div className="max-w-lg mr-6 ml-6">
+   
+   
         <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
             <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://neuro-max.netlify.app/">NeuroMax</a>
             <p className="text-lg text-center text-white p-4">NeuroMax is a Artificial Intelligence service company that helps businesses grow. It has all the works of a full scale business website.</p>
@@ -42,8 +46,12 @@ export const Buttons = () => {
 
 
         </div>
+
+        
       </body>
 
+      <Footer/>
+      </>
       
       
       
