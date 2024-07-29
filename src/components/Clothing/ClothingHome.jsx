@@ -122,38 +122,32 @@ const ClothingHome = () => {
         </div>
 
         {/* Featured Categories */}
-        <section className="flex space-x-10 justify-center items-center text-center content-center mb-28">
-
-        <div className="bg-white shadow-md p-4 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Men</h3>
-            <a href="/MensClothes">
-            <img src="./images/CLOTHESMAN.jpg" alt="Men" className="w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
-            </a>
-          
-          </div>
-          <div className="bg-white shadow-md p-4 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Women</h3>
-            <a href="/WomensClothes">
-  <img src="./images/CLOTHESWOMAN.jpg" alt="Women" className="w-60 h-96 hover:scale-110 object-cover mb-4 transition duration-300" />
-</a>
-            
-          </div>
-     
-          <div className="bg-white shadow-md p-4 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Kids</h3>
-            <a href="/KidsClothes">
-            <img src="./images/CLOTHESKIDS.jpg" alt="Kids" className="w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
-            </a>
-           
-          </div>
-          <div className="bg-white shadow-md p-4 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Babies</h3>
-            <a href="/BabyClothes">
-            <img src=".\images\ClothesBaby.jpg" alt="Babies" className="w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
-            </a>
-            
-          </div>
-        </section>
+              <section className="flex flex-wrap justify-center items-center text-center mb-28 space-y-10 md:space-y-0 md:space-x-10">
+  <div className="w-full md:w-auto bg-white shadow-md p-4 rounded-lg">
+    <h3 className="text-xl font-semibold mb-4">Men</h3>
+    <a href="/MensClothes">
+      <img src="./images/CLOTHESMAN.jpg" alt="Men" className="w-full md:w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
+    </a>
+  </div>
+  <div className="w-full md:w-auto bg-white shadow-md p-4 rounded-lg">
+    <h3 className="text-xl font-semibold mb-4">Women</h3>
+    <a href="/WomensClothes">
+      <img src="./images/CLOTHESWOMAN.jpg" alt="Women" className="w-full md:w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
+    </a>
+  </div>
+  <div className="w-full md:w-auto bg-white shadow-md p-4 rounded-lg">
+    <h3 className="text-xl font-semibold mb-4">Kids</h3>
+    <a href="/KidsClothes">
+      <img src="./images/CLOTHESKIDS.jpg" alt="Kids" className="w-full md:w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
+    </a>
+  </div>
+  <div className="w-full md:w-auto bg-white shadow-md p-4 rounded-lg">
+    <h3 className="text-xl font-semibold mb-4">Babies</h3>
+    <a href="/BabyClothes">
+      <img src="./images/ClothesBaby.jpg" alt="Babies" className="w-full md:w-60 h-96 hover:scale-110 transition duration-500 object-cover mb-4" />
+    </a>
+  </div>
+</section>
 
         {/* Featured Products */}
         <section id="Deals" className="space-y-8">
