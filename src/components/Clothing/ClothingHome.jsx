@@ -92,26 +92,40 @@ const ClothingHome = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Header */}
-      <header className="bg-white shadow-md py-4 px-8 flex justify-between items-center">
-      <div className='flex items-center'>
-  <a href="/ClothesHome" className='flex items-center'>
-    <img src="./images/icons8-clothes-100.png" alt="Clothesicon" className="h-8 w-auto" />
-    <p className='text-2xl text-pretty font-bold ml-2'>ClothesLand</p>
-  </a>
-</div>
+   <header className="bg-white shadow-md py-4 px-4 sm:px-8 flex flex-wrap justify-between items-center relative">
+  <div className="flex items-center">
+    <a href="/ClothesHome" className="flex items-center">
+      <img src="./images/icons8-clothes-100.png" alt="Clothesicon" className="h-8 w-auto" />
+      <p className="text-lg sm:text-2xl text-pretty font-bold ml-2">ClothesLand</p>
+    </a>
+  </div>
 
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#Deals" className="text-gray-600 hover:text-gray-900" >Deals</a></li>
-            <li><a href="#coupons-section" className="text-gray-600 hover:text-gray-900" >Coupons</a></li>
-            <li><a href="#gift-cards-section" className="text-gray-600 hover:text-gray-900" >Gift Cards</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Registry</a></li>
-            <li><a href="/Projects" className="text-gray-600 hover:text-gray-900">BACK TO PROJECTS</a></li>
-            {/* Add more navigation items */}
-          </ul>
-        </nav>
-        <ShoppingCartDropdown cartItems={cartItems} removeFromCart={removeFromCart} />
-      </header>
+  {/* Dropdown Button */}
+  <button
+    className="block sm:hidden bg-gray-200 p-2 rounded-md"
+    onClick={toggleDropdown}
+  >
+    <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+    </svg>
+  </button>
+
+  {/* Dropdown Menu */}
+  <nav className={`absolute top-full left-0 right-0 bg-white shadow-md ${isOpen ? 'block' : 'hidden'} sm:static sm:bg-transparent sm:shadow-none sm:block mt-4 sm:mt-0`}>
+    <ul className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-8 p-4 sm:p-0">
+      <li><a href="#Deals" className="text-gray-600 hover:text-gray-900 text-sm sm:text-base">Deals</a></li>
+      <li><a href="#coupons-section" className="text-gray-600 hover:text-gray-900 text-sm sm:text-base">Coupons</a></li>
+      <li><a href="#gift-cards-section" className="text-gray-600 hover:text-gray-900 text-sm sm:text-base">Gift Cards</a></li>
+      <li><a href="#" className="text-gray-600 hover:text-gray-900 text-sm sm:text-base">Registry</a></li>
+      <li><a href="/Projects" className="text-gray-600 hover:text-gray-900 text-sm sm:text-base">BACK TO PROJECTS</a></li>
+      {/* Add more navigation items */}
+    </ul>
+  </nav>
+
+  {/* Shopping Cart */}
+  <ShoppingCartDropdown cartItems={cartItems} removeFromCart={removeFromCart} />
+</header>
+
 
       {/* Main Content */}
       <main className="container mx-auto py-8">
