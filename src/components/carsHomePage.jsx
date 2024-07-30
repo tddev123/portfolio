@@ -14,7 +14,7 @@ const CarsHomePage = () => {
     }
 
   return (
-    <div className="container">
+    <div className="container flex-wrap">
         <div className="row">
             <h1 className=" text-center col-12 justify-center font-bold mt-3 mb-5 ">car filter</h1>
             <FilterButtons
