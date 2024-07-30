@@ -69,6 +69,12 @@ const ClothingHome = () => {
       };
     }
   }, []);
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   
  
 
@@ -92,7 +98,7 @@ const ClothingHome = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Header */}
-   <header className="bg-white shadow-md py-4 px-4 sm:px-8 flex flex-wrap justify-between items-center relative">
+      <header className="bg-white shadow-md py-4 px-4 sm:px-8 flex flex-wrap justify-between items-center relative">
   <div className="flex items-center">
     <a href="/ClothesHome" className="flex items-center">
       <img src="./images/icons8-clothes-100.png" alt="Clothesicon" className="h-8 w-auto" />
@@ -136,7 +142,7 @@ const ClothingHome = () => {
         </div>
 
         {/* Featured Categories */}
-              <section className="flex flex-wrap justify-center items-center text-center mb-28 space-y-10 md:space-y-0 md:space-x-10">
+        <section className="flex flex-wrap justify-center items-center text-center mb-28 space-y-10 md:space-y-0 md:space-x-10">
   <div className="w-full md:w-auto bg-white shadow-md p-4 rounded-lg">
     <h3 className="text-xl font-semibold mb-4">Men</h3>
     <a href="/MensClothes">
@@ -162,6 +168,7 @@ const ClothingHome = () => {
     </a>
   </div>
 </section>
+
 
         {/* Featured Products */}
         <section id="Deals" className="space-y-8">
@@ -285,4 +292,6 @@ const ClothingHome = () => {
 };
 
 export default ClothingHome;
+
+
 
