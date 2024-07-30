@@ -11,20 +11,9 @@ const HeaderClothes = () => {
     setCartItems(newCartItems);
   };
 
-  // Function to handle smooth scrolling
-  const scrollToCoupons = (event) => {
+  const scrollToSection = (event, sectionId) => {
     event.preventDefault();
-    document.getElementById('coupons-section').scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const scrollToGiftcards = (event) => {
-    event.preventDefault();
-    document.getElementById('gift-cards-section').scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const scrollToDeals = (event) => {
-    event.preventDefault();
-    document.getElementById('Deals').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
   };
 
   const toggleMobileMenu = () => {
@@ -32,12 +21,12 @@ const HeaderClothes = () => {
   };
 
   return (
-    <header className="bg-white shadow-md py-4 px-4 md:px-8 flex justify-between items-center">
+    <header className="bg-white shadow-md py-4 px-4 md:px-8 flex justify-between items-center relative">
       <div className="flex items-center">
         <img src="./images/icons8-clothes-100.png" alt="Clothesicon" className="h-8 w-auto" />
         <p className="text-lg md:text-xl text-pretty font-bold ml-2">ClothesLand</p>
       </div>
-      <div className="md:hidden">
+      <div className="md:hidden relative">
         {/* Mobile Menu Toggle Button */}
         <button
           onClick={toggleMobileMenu}
@@ -55,25 +44,25 @@ const HeaderClothes = () => {
         </button>
         {/* Mobile Dropdown Menu */}
         {showMobileMenu && (
-          <div className="absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100">
+          <div className="absolute right-0 top-full mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 z-50">
             <div className="px-2 py-2">
               <a
                 href="#"
-                onClick={scrollToDeals}
+                onClick={(e) => scrollToSection(e, 'Deals')}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 Deals
               </a>
               <a
                 href="#"
-                onClick={scrollToCoupons}
+                onClick={(e) => scrollToSection(e, 'coupons-section')}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 Coupons
               </a>
               <a
                 href="#"
-                onClick={scrollToGiftcards}
+                onClick={(e) => scrollToSection(e, 'gift-cards-section')}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 Gift Cards
@@ -93,21 +82,21 @@ const HeaderClothes = () => {
       <nav className="hidden md:flex space-x-4">
         <a
           href="#"
-          onClick={scrollToDeals}
+          onClick={(e) => scrollToSection(e, 'Deals')}
           className="text-gray-700 hover:text-gray-900 font-medium"
         >
           Deals
         </a>
         <a
           href="#"
-          onClick={scrollToCoupons}
+          onClick={(e) => scrollToSection(e, 'coupons-section')}
           className="text-gray-700 hover:text-gray-900 font-medium"
         >
           Coupons
         </a>
         <a
           href="#"
-          onClick={scrollToGiftcards}
+          onClick={(e) => scrollToSection(e, 'gift-cards-section')}
           className="text-gray-700 hover:text-gray-900 font-medium"
         >
           Gift Cards
