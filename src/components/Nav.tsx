@@ -19,12 +19,7 @@ export const Nav = () => {
             >
               Home
             </a>
-            <a
-              href="/About"
-              className="text-gray-800 px-3 py-2 rounded-md text-sm font-bold hover:bg-gray-100 transition duration-150 ease-in-out"
-            >
-              About
-            </a>
+       
             <a
               href="/Projects"
               className="text-gray-800 px-3 py-2 rounded-md text-sm font-bold hover:bg-gray-100 transition duration-150 ease-in-out"
