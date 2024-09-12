@@ -9,7 +9,15 @@ export const Buttons = () => {
       <> <Headerr/>
         <body className="flex flex-col items-center pt-12 bg-black min-h-screen py-8">
 
-          
+                <div className="w-full max-w-3xl mb-8">
+          <video
+            className="w-full h-auto rounded-lg border-4 border-gray-400 shadow-lg"
+            controls
+          >
+            <source src="./public/scheduler video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
     
         <div className="max-w-lg mr-6 ml-6">
    
