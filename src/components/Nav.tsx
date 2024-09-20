@@ -68,7 +68,7 @@ export const Nav = () => {
           Home
         </a>
         <a
-          href="/About"
+          href="/Projects"
           className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition duration-150 ease-in-out"
         >
      
