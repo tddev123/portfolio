@@ -12,6 +12,49 @@ export const Buttons = () => {
 
     
         <div className="max-w-lg mr-6 ml-6">
+
+          
+        <h1 className="text-white text-center text-4xl mb-12 ">Software Related Projects</h1>
+
+        <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
+            <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://tool-kit-zeta.vercel.app/">Toolkit</a>
+            <p className="text-lg text-center text-white p-4">Toolkit is a personal website I use to deploy and test software.</p>
+            <a className="block text-2xl hover:text-green-500 text-white text-center" href="https://github.com/tddev123/Tool-Kit"> Github Repo</a>
+          </div>
+
+          <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
+            <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://www.createyouragents.com/">Createyouragents Bots</a>
+            <p className="text-lg text-center text-white p-4">Create Your Agents is a website where I sell Various Bots. These bots use custom trained computer vision models along with python
+              algorithms in conjunction with computer screen/mouse+keyboard controls to automate any task. I make these 100% by myself.</p>
+            <a className="block text-2xl hover:text-green-500 text-white text-center" href="https://github.com/tddev123/CreateYourAgents"> Github Repo</a>
+          </div>
+
+          <h1 className="text-white text-center text-4xl mb-12 mt-20">Full Stack + Software Projects</h1>
+
+          <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
+            <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://ai-onewaycom.vercel.app/#hero">AI One Way</a>
+            <p className="text-lg text-center text-white p-4">AI One Way is a website I have largely assisted in creating with a team of engineers. It is fundamentally an AI 
+              custom model service website for various business needs. I dont know when they're going to finalize it and run it live but the entire AI training system and backend are mostly finished. I have 
+              private access to the repo but cannot share it because of copyright/security issues.</p>
+            
+          </div>
+
+          <h1 className="text-white text-center text-4xl mb-12 mt-20">Apps</h1>
+
+          <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
+            <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://apps.apple.com/us/app/nutri-ai-calorie-tracker/id6596775632">Nutri AI </a>
+            <p className="text-lg text-center text-white p-4">Nutri Ai is a calorie tracking app I helped build as a freelancer about a year ago.</p>
+            
+          </div>
+
+          <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
+            <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://apps.apple.com/us/app/ai-resume-creator-cv-builder/id1427280646">AI Resume Builder </a>
+            <p className="text-lg text-center text-white p-4">AI Resume Builder is an App that uses AI to automatically build optimized resumes based on a massive dataset we collected. I worked on this App as a freelancer around 3 years ago.</p>
+            
+          </div>
+
+
+          <h1 className="text-white text-center text-4xl mb-12 mt-20">Front-end Projects</h1>
    
         <div className="border-4 glow1 border-gray-400 rounded-lg p-4 mb-8 animate-border">
             <a className="block p-4 shadow-lg bg-red-700 hover:bg-lime-600 text-white font-bold text-3xl rounded-t-lg text-center" href="https://coffeeworld123.netlify.app/">CoffeeWorld</a>
