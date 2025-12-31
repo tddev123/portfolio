@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-700  text-white p-2">
-      <div className="container mx-auto flex justify-between items-center">
-        <img className="w-12 h-12" src="./images/icons8-t-80 (1).png" alt="" />
-        <nav className="pl-8 md:pl-32">
-          <a href="#" className="text-lg md:text-xl mx-2 block">Contact Me - tdengineer123@gmail.com</a>
-        </nav>
-        <p className="text-sm"></p>
+    <footer className="bg-gray-700 text-white p-4">
+      <div className="flex justify-center items-center text-center">
+        <a
+          href="mailto:tdengineer123@gmail.com"
+          className="text-lg md:text-xl"
+        >
+          tdengineer123@gmail.com
+        </a>
       </div>
     </footer>
   );
 };
 
 export default Footer;
-
