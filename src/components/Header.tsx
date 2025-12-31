@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 export const Headerr = () => {
   return (
-    <header className=""z-30 sticky top-0 mx-auto flex w-screen  bg-white flex-wrap items-center justify-between p-3 font-sans font-bold uppercase">
+    <header className="z-30 sticky top-0 w-screen bg-white flex items-center justify-between p-3 font-sans font-bold uppercase">
       <a href="/">
         <h1 className="text-xl">Tyler Altenburg</h1>
       </a>
@@ -15,6 +15,7 @@ export const Headerr = () => {
 };
 
 export default Headerr;
+
 
 
 
