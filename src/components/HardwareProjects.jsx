@@ -21,15 +21,15 @@ export const Hardware = () => {
           </p>
 
            {/* PDF link */}
-          <div className="mt-6 mb-6">
-            <a
-              href="/CAMRON.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 text-2xl underline"
-            >
-              View full project documentation (PDF)
-            </a>
+                 <div className="mt-6 text-2xl hover:text-red-700 mb-6">
+           <a
+  href="/CAMRON.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  download
+>
+ Download Full Project Documentation PDF
+</a>
           </div>
 
           {/* Image */}
