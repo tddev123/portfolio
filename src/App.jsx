@@ -22,7 +22,7 @@ import WomanClothes from "./components/Clothing/WomanClothes";
 import KidsClothes from "./components/Clothing/KidsClothes";
 import BabyClothes from "./components/Clothing/BabyClothes";
 import WomensClothes from "./components/Clothing/WomanClothes";
-
+import { Hardware } from "./components/HardwareProjects.jsx";
 
 
 
@@ -43,6 +43,10 @@ function App() {
 
         case "/Projects":
         Component = Buttons
+        break
+
+        case "/HardwareProjects":
+        Component = Hardware
         break
 
         case "/Contact":
