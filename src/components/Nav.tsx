@@ -20,11 +20,18 @@ export const Nav = () => {
               Home
             </a>
        
+           <a
+              href="/HardwareProjects"
+              className="text-gray-800 px-3 py-2 rounded-md text-sm font-bold hover:bg-gray-100 transition duration-150 ease-in-out"
+            >
+              Hardware Projects
+            </a>
+       
             <a
               href="/Projects"
               className="text-gray-800 px-3 py-2 rounded-md text-sm font-bold hover:bg-gray-100 transition duration-150 ease-in-out"
             >
-              Projects
+              Software Projects
             </a>
             <a
               href="/Contact"
@@ -86,3 +93,4 @@ export const Nav = () => {
 };
 
 export default Nav;
+
