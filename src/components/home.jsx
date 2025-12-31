@@ -35,8 +35,8 @@ export const Home = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="rounded-lg text-center content-center h-auto p-6">
-                            <h1 className="text-black text-4xl md:text-6xl font-bold">Software Engineer</h1>
-                            <h1 className="p-10 text-xl md:text-2xl">Software Engineer from Miami, Florida.</h1>
+                            <h1 className="text-black text-4xl md:text-6xl font-bold">Hardware Engineer</h1>
+                            <h1 className="p-10 text-xl md:text-2xl">Miami, Florida.</h1>
                             <div className="flex justify-center space-x-4">
                                 <a href="https://www.linkedin.com/in/tyler-altenburg-0259832a9/"><Linkd /></a>
                                 <a href="https://github.com/tddev123"><Github /></a>
@@ -67,3 +67,4 @@ export const Home = () => {
         </body>
     );
 };
+
